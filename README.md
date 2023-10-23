@@ -120,7 +120,7 @@ Python version 3.10
 1. Fork this [repo](https://github.com/sparckles/starfyre)
 2. Clone this repo - `git clone https://github.com/sparckles/starfyre`
 3. Go in to the starfyre directory - `cd starfyre`
-4. Download poetry `curl -sSL https://install.python-poetry.org/ | python3 -`
+4. If it isn't already installed, [install poetry](https://python-poetry.org/docs/#installation).
 5. Install the dependencies `poetry install`
 6. Activate poetry virtual environment `poetry shell`
 7. Run the script `./build.sh`. This command will run the build process in starfyre against the test application in `test-application` directory.
